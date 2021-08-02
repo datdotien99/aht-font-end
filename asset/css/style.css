@@ -1105,10 +1105,12 @@ ul li {
     text-align: center;
   }
   .footer__bottom .copyright {
-    width: 50%;
+    padding-left: 15px;
+    width: 48%;
   }
   .footer__bottom .text-right {
-    width: 50%;
+    width: 48%;
+    padding-right: 15px;
   }
 }
 @media all and (max-width: 768px) {
@@ -1170,7 +1172,7 @@ ul li {
     font-size: 25px;
   }
   .banner__around--item .collap-sale {
-    padding: 5px 10px 0;
+    padding: 20px 10px 0;
   }
   .banner__around--item .collap-sale .s1 {
     font-size: 10px;
@@ -1188,68 +1190,35 @@ ul li {
     line-height: 30px;
   }
   .banner__around--item .content-bn h3 {
-    font-size: 40px;
+    font-size: 45px;
     line-height: 40px;
   }
-  .product {
-    padding-bottom: 50px;
-  }
-  .product__title h3 a {
-    font-size: 45px;
-  }
-  .product__title .view-more {
-    display: none;
-  }
-  .product__all {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
-  }
-  .product .product__all--item {
-    width: 50%;
-  }
-  .product .product__all--item .pro-img {
-    height: auto;
-  }
-  .product .product__all--item .pro-img .back-to-style {
-    opacity: 1;
-  }
-  .product .product__all--item .pro-img .next-to-style {
-    opacity: 1;
-  }
-  .product .product__all--item .pro-img img {
-    width: 100%;
-  }
-  .product .product__all--item .pro-img .add-pro {
-    display: none;
-  }
   .footer__top .logo-ft {
-    width: 50%;
+    width: 20%;
     text-align: right;
-    order: 1;
   }
   .footer__top .menu-ft {
-    order: 3;
-    width: 100%;
-    margin-top: 30px;
+    width: 80%;
   }
   .footer__top .menu-ft ul {
-    padding-left: 0;
-    padding-top: 0;
+    padding-left: 50px;
+    padding-top: 74px;
   }
   .footer__top .menu-ft ul li {
     padding: 0 8px;
   }
   .footer__top .subcribe {
-    order: 2;
-    width: 50%;
+    display: none;
+    width: 18%;
     text-align: center;
   }
   .footer__bottom .copyright {
-    width: 50%;
+    padding-left: 15px;
+    width: 48%;
   }
   .footer__bottom .text-right {
-    width: 50%;
+    width: 46%;
+    padding-right: 15px;
   }
 }
 @media all and (max-width: 576px) {
